@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d1e4d88-f64c-43c8-8aa2-2530f5994ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gui/layouts/float.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +14,7 @@
     <SUITE FILE_PATH="coverage/python_kivy$teste_kivy.coverage" NAME="teste-kivy Coverage Results" MODIFIED="1538589360322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
     <SUITE FILE_PATH="coverage/python_kivy$float.coverage" NAME="float Coverage Results" MODIFIED="1538659852339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui/layouts" />
     <SUITE FILE_PATH="coverage/python_kivy$box.coverage" NAME="box Coverage Results" MODIFIED="1538659656157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui/layouts" />
+    <SUITE FILE_PATH="coverage/python_kivy$grid.coverage" NAME="grid Coverage Results" MODIFIED="1538660662800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui/layouts" />
     <SUITE FILE_PATH="coverage/python_kivy$main.coverage" NAME="main Coverage Results" MODIFIED="1538407587170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -34,29 +34,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="kv" value="3" />
-          <entry key="py" value="8" />
+          <entry key="kv" value="5" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kivy" value="2" />
+          <entry key="Kivy" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="kv" value="507" />
-          <entry key="py" value="606" />
+          <entry key="kv" value="741" />
+          <entry key="py" value="621" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kivy" value="443" />
+          <entry key="Kivy" value="677" />
           <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Python" value="606" />
+          <entry key="Python" value="621" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -66,44 +66,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui/layouts/box.py">
+        <entry file="file://$PROJECT_DIR$/gui/layouts/grid.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1538658381447" expanded="true" signature="120:181" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gui/layouts/float.kv">
+        <entry file="file://$PROJECT_DIR$/gui/layouts/grid.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui/layouts/float.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui/layouts/box.kv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="144">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -136,6 +114,8 @@
         <option value="$PROJECT_DIR$/gui/layouts/box.kv" />
         <option value="$PROJECT_DIR$/gui/layouts/float.py" />
         <option value="$PROJECT_DIR$/gui/layouts/float.kv" />
+        <option value="$PROJECT_DIR$/gui/layouts/grid.py" />
+        <option value="$PROJECT_DIR$/gui/layouts/grid.kv" />
       </list>
     </option>
   </component>
@@ -220,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.float">
+  <component name="RunManager" selected="Python.grid">
     <configuration name="box" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-kivy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,6 +237,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/layouts/float.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-kivy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui/layouts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/layouts/grid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,9 +316,11 @@
       <item itemvalue="Python.teste-kivy" />
       <item itemvalue="Python.box" />
       <item itemvalue="Python.float" />
+      <item itemvalue="Python.grid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.grid" />
         <item itemvalue="Python.float" />
         <item itemvalue="Python.box" />
         <item itemvalue="Python.teste-kivy" />
@@ -419,21 +423,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/layouts/box.kv">
+    <entry file="file://$PROJECT_DIR$/gui/layouts/float.kv">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/layouts/box.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1538658381447" expanded="true" signature="120:181" ph="..." />
-          </folding>
+        <state relative-caret-position="143">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -447,10 +440,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/layouts/float.kv">
+    <entry file="file://$PROJECT_DIR$/gui/layouts/box.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="5" column="8" lean-forward="true" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1538658381447" expanded="true" signature="120:181" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/layouts/box.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="11" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/layouts/grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/layouts/grid.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
