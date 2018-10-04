@@ -10,7 +10,7 @@ class ClienteRepositorio():
         try:
             cursor = fabrica.cursor()
             cursor.execute("SELECT * FROM cliente")
-            print(cursor.fetchall())
+            return cursor.fetchall()
         finally:
             fabrica.close()
 
