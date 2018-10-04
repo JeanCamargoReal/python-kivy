@@ -7,7 +7,7 @@ from repositorios import cliente_repositorio
 
 
 class BotaoListagem(ToggleButton):
-    def __init__(self, cliente_id, cliente_nome, cliente_idade, **kwargs): # **kwargs = argumentos
+    def __init__(self, cliente_id, cliente_nome, cliente_idade, **kwargs):  # **kwargs = argumentos
         super(BotaoListagem, self).__init__(**kwargs)
         self.id_cliente = cliente_id
         self.nome_cliente = cliente_nome
@@ -15,10 +15,28 @@ class BotaoListagem(ToggleButton):
         self.text = self.nome_cliente + " " + self.idade_cliente
         self.group = 'clientes'
 
+    def _do_release(self, *args):
+        Principal().cliente_selecionado(self.id_cliente)
+
 
 class Principal(BoxLayout):
+    id_cliente = 0
+
     def __init__(self, **kwargs):
         super(Principal, self).__init__(**kwargs)
+        self.listar_clientes()
+
+    def cliente_selecionado(self, id):
+        Principal.id_cliente = id
+        # print(id)
+
+    def editar_cliente(self):
+        id = Principal.id_cliente
+        nome = self.ids.nome.text
+        idade = self.ids.idade.text
+        cli = cliente.Cliente(nome, idade)
+
+        cliente_repositorio.ClienteRepositorio.editar_cliente(id, cli)
         self.listar_clientes()
 
     def cadastrar_cliente(self):

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d1e4d88-f64c-43c8-8aa2-2530f5994ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/layouts/crud.kv" beforeDir="false" afterPath="$PROJECT_DIR$/gui/layouts/crud.kv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/layouts/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/layouts/crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositorios/cliente_repositorio.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositorios/cliente_repositorio.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +18,7 @@
     <SUITE FILE_PATH="coverage/python_kivy$box.coverage" NAME="box Coverage Results" MODIFIED="1538661657417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui/layouts" />
     <SUITE FILE_PATH="coverage/python_kivy$grid.coverage" NAME="grid Coverage Results" MODIFIED="1538661203551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui/layouts" />
     <SUITE FILE_PATH="coverage/python_kivy$main.coverage" NAME="main Coverage Results" MODIFIED="1538407587170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_kivy$crud.coverage" NAME="crud Coverage Results" MODIFIED="1538672761537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui/layouts" />
+    <SUITE FILE_PATH="coverage/python_kivy$crud.coverage" NAME="crud Coverage Results" MODIFIED="1538675882207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui/layouts" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1825663219">
@@ -56,15 +54,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="kv" value="1504" />
-          <entry key="py" value="1765" />
+          <entry key="kv" value="1530" />
+          <entry key="py" value="2070" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kivy" value="1440" />
+          <entry key="Kivy" value="1466" />
           <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Python" value="1765" />
+          <entry key="Python" value="2070" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -73,37 +71,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gui/layouts/crud.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="229">
+              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1538672389963" expanded="true" signature="225:599" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="300:302" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="300:305" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="300:306" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="300:308" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="300:310" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="300:311" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="300:317" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="300:318" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="300:322" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="300:324" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="742:747" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="742:1439" ph="..." />
-                <marker date="1538672389963" expanded="true" signature="1455:1460" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="225:692" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="301:303" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="301:306" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="301:307" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="301:309" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="301:311" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="301:312" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="301:318" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="301:319" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="301:323" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="301:325" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="1230:1235" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="1230:1974" ph="..." />
+                <marker date="1538675651039" expanded="true" signature="1990:1995" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gui/layouts/crud.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="138">
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -142,8 +140,8 @@
         <option value="$PROJECT_DIR$/gui/layouts/stack.kv" />
         <option value="$PROJECT_DIR$/fabricas/fabrica_conexao.py" />
         <option value="$PROJECT_DIR$/repositorios/cliente_repositorio.py" />
-        <option value="$PROJECT_DIR$/gui/layouts/crud.kv" />
         <option value="$PROJECT_DIR$/gui/layouts/crud.py" />
+        <option value="$PROJECT_DIR$/gui/layouts/crud.kv" />
       </list>
     </option>
   </component>
@@ -153,11 +151,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="133" />
-    <option name="y" value="21" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="352" />
+    <option name="y" value="-681" />
     <option name="width" value="1071" />
-    <option name="height" value="688" />
+    <option name="height" value="660" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -365,15 +363,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <frame x="352" y="87" width="1071" height="660" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19561933" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25170067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3123077" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31226766" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -516,34 +514,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/layouts/crud.kv">
+    <entry file="file://$PROJECT_DIR$/gui/layouts/crud.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="229">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1538675651039" expanded="true" signature="225:692" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="301:303" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="301:306" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="301:307" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="301:309" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="301:311" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="301:312" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="301:318" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="301:319" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="301:323" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="301:325" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="1230:1235" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="1230:1974" ph="..." />
+            <marker date="1538675651039" expanded="true" signature="1990:1995" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/layouts/crud.py">
+    <entry file="file://$PROJECT_DIR$/gui/layouts/crud.kv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1538672389963" expanded="true" signature="225:599" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="300:302" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="300:305" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="300:306" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="300:308" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="300:310" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="300:311" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="300:317" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="300:318" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="300:322" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="300:324" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="742:747" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="742:1439" ph="..." />
-            <marker date="1538672389963" expanded="true" signature="1455:1460" ph="..." />
-          </folding>
+        <state relative-caret-position="138">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
         </state>
       </provider>
     </entry>
