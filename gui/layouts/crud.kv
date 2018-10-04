@@ -35,6 +35,7 @@
         Button:
             text: "Remover"
             size_hint_x: 15
+            on_release: root.remover_cliente()
         Button:
             text: "Editar"
             size_hint_x: 15
@@ -45,3 +46,23 @@
     font_size: 30
     size_hint_y: None
     height: 50
+
+<ExclusaoPopup>:
+    size_hint: .8, .5
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Tem certeza que deseja remover o cliente?'
+            font_size: 25
+            halign: 'center'
+            valign: 'middle'
+        BoxLayout:
+            size_hint: .1, .2
+            Button:
+                text: 'Sim'
+                on_release:
+                    root.funcao()  # função fantasma, vai ser substituida por uma função realmente responsavel
+                    root.dismiss()
+            Button:
+                text: 'Nao'
+                on_release: root.dismiss()

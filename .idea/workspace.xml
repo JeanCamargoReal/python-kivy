@@ -18,7 +18,7 @@
     <SUITE FILE_PATH="coverage/python_kivy$box.coverage" NAME="box Coverage Results" MODIFIED="1538661657417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui/layouts" />
     <SUITE FILE_PATH="coverage/python_kivy$grid.coverage" NAME="grid Coverage Results" MODIFIED="1538661203551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui/layouts" />
     <SUITE FILE_PATH="coverage/python_kivy$main.coverage" NAME="main Coverage Results" MODIFIED="1538407587170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_kivy$crud.coverage" NAME="crud Coverage Results" MODIFIED="1538675882207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui/layouts" />
+    <SUITE FILE_PATH="coverage/python_kivy$crud.coverage" NAME="crud Coverage Results" MODIFIED="1538678610905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui/layouts" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1825663219">
@@ -54,15 +54,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="kv" value="1530" />
-          <entry key="py" value="2070" />
+          <entry key="kv" value="1896" />
+          <entry key="py" value="2281" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kivy" value="1466" />
+          <entry key="Kivy" value="1832" />
           <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Python" value="2070" />
+          <entry key="Python" value="2281" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -71,37 +71,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gui/layouts/crud.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="888">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1538675651039" expanded="true" signature="225:692" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="301:303" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="301:306" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="301:307" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="301:309" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="301:311" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="301:312" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="301:318" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="301:319" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="301:323" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="301:325" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="1230:1235" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="1230:1974" ph="..." />
-                <marker date="1538675651039" expanded="true" signature="1990:1995" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="287:299" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="333:800" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="409:411" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="409:414" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="409:415" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="409:417" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="409:419" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="409:420" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="409:426" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="409:427" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="409:431" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="409:433" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="1252:1356" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="1632:1637" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="1632:2376" ph="..." />
+                <marker date="1538678288127" expanded="true" signature="2392:2397" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gui/layouts/crud.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="360">
+              <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -140,8 +142,8 @@
         <option value="$PROJECT_DIR$/gui/layouts/stack.kv" />
         <option value="$PROJECT_DIR$/fabricas/fabrica_conexao.py" />
         <option value="$PROJECT_DIR$/repositorios/cliente_repositorio.py" />
-        <option value="$PROJECT_DIR$/gui/layouts/crud.py" />
         <option value="$PROJECT_DIR$/gui/layouts/crud.kv" />
+        <option value="$PROJECT_DIR$/gui/layouts/crud.py" />
       </list>
     </option>
   </component>
@@ -151,11 +153,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="352" />
-    <option name="y" value="-681" />
+  <component name="ProjectFrameBounds" extendedState="5">
+    <option name="x" value="116" />
+    <option name="y" value="24" />
     <option name="width" value="1071" />
-    <option name="height" value="660" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -363,7 +365,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="352" y="87" width="1071" height="660" extended-state="0" />
+    <frame x="116" y="24" width="1071" height="744" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25170067" />
@@ -371,7 +373,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31226766" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27009645" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,34 +516,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/layouts/crud.py">
+    <entry file="file://$PROJECT_DIR$/gui/layouts/crud.kv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1538675651039" expanded="true" signature="225:692" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="301:303" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="301:306" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="301:307" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="301:309" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="301:311" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="301:312" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="301:318" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="301:319" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="301:323" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="301:325" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="1230:1235" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="1230:1974" ph="..." />
-            <marker date="1538675651039" expanded="true" signature="1990:1995" ph="..." />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/layouts/crud.kv">
+    <entry file="file://$PROJECT_DIR$/gui/layouts/crud.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="888">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1538678288127" expanded="true" signature="287:299" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="333:800" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="409:411" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="409:414" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="409:415" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="409:417" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="409:419" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="409:420" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="409:426" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="409:427" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="409:431" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="409:433" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="1252:1356" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="1632:1637" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="1632:2376" ph="..." />
+            <marker date="1538678288127" expanded="true" signature="2392:2397" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
